@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0",
+    "standard-version": "^8.0.0"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
+  "author": "oleg_templ <linner_952@mail.ru> (http://www.bear-software.by)",
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
